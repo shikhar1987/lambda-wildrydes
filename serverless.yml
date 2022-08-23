@@ -1,0 +1,15 @@
+service: lambda-wildrydes
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: ap-southeast-2
+  iam:
+    role: arn:aws:iam::972204093366:role/WildRydesLambda
+
+
+functions:
+  hello:
+    handler: src/handler.handler
+
