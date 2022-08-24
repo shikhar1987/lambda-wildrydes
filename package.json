@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/shikhar1987/lambda-wildrydes/issues"
   },
-  "homepage": "https://github.com/shikhar1987/lambda-wildrydes#readme"
+  "homepage": "https://github.com/shikhar1987/lambda-wildrydes#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.1.0",
+    "@opentelemetry/instrumentation": "^0.31.0",
+    "@opentelemetry/instrumentation-aws-lambda": "^0.32.0",
+    "@opentelemetry/sdk-trace-node": "^1.5.0",
+    "@splunk/otel": "^1.2.1"
+  }
 }
