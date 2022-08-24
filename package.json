@@ -1,0 +1,22 @@
+{
+  "name": "lambda-wildrydes",
+  "version": "1.0.0",
+  "description": "This is the lambda file for wildrydes website",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikhar1987/lambda-wildrydes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikhar1987/lambda-wildrydes/issues"
+  },
+  "homepage": "https://github.com/shikhar1987/lambda-wildrydes#readme"
+}

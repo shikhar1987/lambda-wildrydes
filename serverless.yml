@@ -11,5 +11,5 @@ provider:
 
 functions:
   hello:
-    handler: src/handler.handler
+    handler: src/index.handler
 
