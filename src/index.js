@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: MIT-0
 
 // Debugger for Splunk Manual Instrumentation
-const { diag, DiagConsoleLogger, DiagLogLevel } = require("@opentelemetry/api");
-diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.ALL);
+//const { diag, DiagConsoleLogger, DiagLogLevel } = require("@opentelemetry/api");
+//diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.ALL);
 
 const randomBytes = require('crypto').randomBytes;
 
